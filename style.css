@@ -1,10 +1,31 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.woff2') format('woff2'),
+        url('fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', 'Courier New', Courier, monospace;
+}
+
 .hero-container {
     background-color: #1f2937;
     display: flex;
+    margin: 0px;
+    padding: 0px;
 }
 
 .content {
-    margin: 0px 400px;
+    margin: 0px 320px;
     display: flex;
+    flex-direction: column;
 }
 
