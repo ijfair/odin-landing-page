@@ -13,11 +13,12 @@
 
 body {
     margin: 0;
-    font-family: 'Roboto', 'Courier New', Courier, monospace;
+    font-family: 'Roboto', 'Arial', sans-serif;
 }
 
 .hero-container {
     background-color: #1f2937;
+    color: #f9faf8;
     display: flex;
     margin: 0px;
     padding: 0px;
@@ -27,5 +28,9 @@ body {
     margin: 0px 320px;
     display: flex;
     flex-direction: column;
+}
+
+.header {
+    display: flex;
 }
 
