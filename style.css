@@ -28,7 +28,6 @@ body {
     margin: 0px 320px;
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
 }
 
 .header {
@@ -55,5 +54,29 @@ body {
     color: #e5e7eb;
     font-size: 18px;
     text-decoration: none;
+}
+
+.hero-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+#image-placeholder {
+    background-color: rgb(100, 98, 98);
+    color: #e5e7eb;
+    width: 400px;
+    text-align: center;
+}
+
+#hero-text {
+    flex: 1 1 0;
+}
+
+#hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
 }
 
