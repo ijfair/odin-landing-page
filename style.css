@@ -21,7 +21,7 @@ body {
     color: #f9faf8;
     display: flex;
     margin: 0px;
-    padding: 0px;
+    padding: 0px 0px 80px;
 }
 
 .content {
@@ -67,7 +67,10 @@ body {
     background-color: rgb(100, 98, 98);
     color: #e5e7eb;
     width: 400px;
-    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #hero-text {
