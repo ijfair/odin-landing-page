@@ -39,6 +39,7 @@ body {
 
 #header-logo{
     font-size: 24px;
+    font-weight: 700;
     margin: 0px;
 }
 
@@ -81,5 +82,20 @@ body {
     font-size: 48px;
     font-weight: 900;
     margin: 0px;
+}
+
+#hero-subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#sign-up-button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 32px;
+    border: none;
+    border-radius: 8px;
 }
 
